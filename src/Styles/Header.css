@@ -1,0 +1,48 @@
+.Header-Wrapper {
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+}
+
+.Right-Side {
+  display: flex;
+  
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 10px;
+  
+  }
+
+.Avatar-Container {
+  display: flex;
+  margin: 15px;
+}
+
+.Profile-Info {
+  display: flex;
+}
+
+.Profile-Text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 3px;
+}
+
+.Steam-Icon {
+  width: 20px;
+  height: 20px;
+}
+input {
+  height: 30px;
+}
+
+button {
+  height: 30px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Find-Button{
+  height: 36px;
+}

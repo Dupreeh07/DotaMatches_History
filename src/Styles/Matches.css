@@ -1,0 +1,92 @@
+table {
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 15px;
+  width: 55vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #646f7a;
+  
+}
+
+td, th {
+  border: none; 
+}
+
+.won {
+  color: rgb(17, 157, 17);
+  -webkit-text-stroke: 0.3px #000000;
+}
+
+.lost {
+  color: rgba(204, 19, 19, 0.807);
+  -webkit-text-stroke: 0.2px hsl(0, 0%, 0%);
+}
+
+.green-bg {
+  background-color: #073f074d;
+
+
+}
+.red-bg {
+  background-color: #8918184d;
+}
+
+.transparent-red-bg {
+  background-color: rgba(7, 64, 7, 0.1); 
+
+}
+
+.transparent-green-bg {
+  background-color: rgba(137, 24, 24, 0.1); 
+
+}
+
+.Row-BG-Matches1{
+  background-color: rgba(97, 109, 122, 0.5); 
+}
+
+.Row-BG-Matches2{
+  background-color: rgb(112, 128, 144);  
+}
+
+.TableHeader {
+  text-align: center;
+  font-size: 25px;
+  margin: 9px;
+}
+
+/******************** Img prorepties  *************/
+.ItemsImg{
+  white-space: nowrap;
+}
+
+.ItemsImg img {
+  width: 30px;
+  height: 23px;
+}
+
+.MHero-img, .MDHero-img{
+  width: 40px;
+  height: 28px;
+  font-size: 0px;
+  margin: 4px;
+}
+
+
+.NeutralItem {
+  border-radius: 50%;
+  margin-left: 3px;
+}
+/* ***************************************/
+
+.Link-cell{
+  border: none;
+  border-collapse: collapse;
+
+}
+.Link-cell span{
+  text-decoration: none !important;
+  color: black;
+}
+
